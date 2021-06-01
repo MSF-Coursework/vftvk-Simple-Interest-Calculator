@@ -23,10 +23,10 @@ function compute() {
     var year = new Date().getFullYear()+parseInt(years);
 
     // create string to contain the HTML for the result
-    output = "If you deposit <span style=\"color: yellow;\"\>"+principal+"\</span\>,\<br\>";
-    output = output + "at an interest rate of <span style=\"color: yellow;\"\>"+rate+"%\</span\>.\<br\>";
-    output = output + "You will receive an amount of <span style=\"color: yellow;\"\>"+interest+"\</span\>,\<br\>";
-    output = output + "in the year <span style=\"color: yellow;\"\>"+year+"\</span\>\<br\>";
+    output = "If you deposit <span style=\"background-color: yellow;\"\>"+principal+"\</span\>,\<br\>";
+    output = output + "at an interest rate of <span style=\"background-color: yellow;\"\>"+rate+"%\</span\>.\<br\>";
+    output = output + "You will receive an amount of <span style=\"background-color: yellow;\"\>"+interest+"\</span\>,\<br\>";
+    output = output + "in the year <span style=\"background-color: yellow;\"\>"+year+"\</span\>\<br\>";
     
     // store output HTML into the span which should contain result
     document.getElementById("result").innerHTML = output;
